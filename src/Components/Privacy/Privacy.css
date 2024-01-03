@@ -1,0 +1,22 @@
+.privacy
+{
+    margin-top: 2cm;
+}
+.privacy p
+{
+    font-size: 20px;
+    color: #444444;
+    margin-left: 4cm;
+    margin-right: 2cm;
+}
+.privacy h1
+{
+    color:#555555;
+    font-style:oblique;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+.privacy #heading
+{
+    color: black;
+}

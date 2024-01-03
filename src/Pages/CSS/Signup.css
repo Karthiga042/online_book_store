@@ -1,0 +1,80 @@
+.signup
+{
+    width:60cm;
+    height: 100vh;
+    background: red;
+    padding-top: 100px;
+    margin-top: 1cm;
+    background-image: url("D:\sem 3\react project\online bookstore\bookstore\src\Components\Assets\loginsignupbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signup-container
+{
+    width: 580px;
+    height: 700px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.signup-container h1
+{
+    margin: 20px 0px;
+}
+.signup-fields
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+.signup-fields input
+{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color:#444444;
+    font-size: 18px;
+}
+.signup-container button 
+{
+    width: 580px;
+    height: 72px;
+    color:white;
+    background: red;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.signup-login
+{
+    margin-top: 20px;
+    color:grey;
+    font-size: 20px;
+    font-weight: 700;
+}
+.signup-login span
+{
+    color: #ff4141;
+    font-weight: 600;
+    text-decoration: none;
+}
+.signup-agree 
+{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color:grey;
+    font-size: 18px;
+    font-weight: 500;
+}
+.signup-agree input
+{
+    height: 30px;
+    width: 30px;
+}

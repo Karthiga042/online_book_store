@@ -1,0 +1,35 @@
+.checkout img 
+{
+    height: 8cm;
+    width: 8cm;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25cm;
+    margin-top: 4cm;
+    margin-bottom: 3cm;
+}
+.checkout h1 
+{
+    color: green;
+    margin-left: 15cm;
+    font-size: 1.5cm;
+    margin-bottom: 1cm;
+}
+.checkout h5 
+{
+    color: #555555;
+    font-size: 0.7cm;
+    margin-left: 12cm;
+    margin-bottom: 3cm;
+}
+.checkout button
+{
+    color: white;
+    background-color: green;
+    height: 2cm;
+    width: 8cm;
+    margin-left: 25cm;
+    border-radius: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}

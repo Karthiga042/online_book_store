@@ -1,0 +1,22 @@
+.faq
+{
+    margin-top: 2cm;
+}
+.faq p
+{
+    font-size: 20px;
+    color: #444444;
+    margin-left: 4cm;
+    margin-right: 2cm;
+}
+.faq h1
+{
+    color:#555555;
+    font-style:oblique;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+.faq #heading
+{
+    color: black;
+}
