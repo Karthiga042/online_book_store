@@ -4,13 +4,13 @@ import { ShopContext } from '../Context/ShopContext';
 import dropdown_icon from '../Components/Assets/dropdown_icon.png';
 import Item from '../Components/Item/Item';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
+import { Link } from 'react-router-dom';
 
 const ShopCategory=(props)=>
 {
     const {all_product}=useContext(ShopContext)
     return(
         <div className='shop-category'>
-            {/* <img className='shopcategory-banner' src={props.banner} alt=""/> */}
             <div className='shopcategory-indexSort'>
                 <p>
                     <span>Showing 1-12 </span>
@@ -32,14 +32,9 @@ const ShopCategory=(props)=>
                         }
                     })}
                         </div>
-                    {/* <div className="shopcategory-products">
-                    {all_product.map((item,i)=>{
-                        return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}  />
-                    })}
-            </div> */}
             <div className='shopcategory-loadmore'>
                 <TravelExploreIcon id="travel"/>
-           <a href="/newarrivals" style={{textDecoration:'none'}}><p> Explore More</p></a>
+           <Link to="/newarrivals" style={{textDecoration:'none'}}><p> Explore More</p></Link>
             </div>
         </div>
     )
