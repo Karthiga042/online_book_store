@@ -12,9 +12,10 @@ import Footer from './Components/Footer/Footer';
 import Privacy from './Components/Privacy/Privacy';
 import Faq from './Components/Faq/Faq';
 import Signup from './Pages/Signup';
-import Dashboard from './Components/Dashboard/Dashboard';
+// import Dashboard from './Components/Dashboard/Dashboard';
 import Address from './Components/Address/Address';
 import Checkout from './Components/Checkout/Checkout';
+import Wishlist from './Components/Wishlist/Wishlist';
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
           <Route path='/Cart' element={<Cart />}/>
           <Route path='/login' element={<Login />}/>
           <Route path='/signup' element={<Signup />}/>
-          <Route path='/dashboard' element={<Dashboard />}/>
+          {/* <Route path='/dashboard' element={<Dashboard />}/> */}
+          <Route path='/Wishlist' element={<Wishlist />}/>
           <Route path='/address' element={<Address/>}/>
           <Route path='/checkout' element={<Checkout/>}/>
 
