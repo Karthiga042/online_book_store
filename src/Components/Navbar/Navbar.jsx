@@ -1,11 +1,12 @@
 import React, { useContext } from "react";
 import './Navbar.css';
 import { useState } from "react";
-import DashboardIcon from '@mui/icons-material/Dashboard';
+// import DashboardIcon from '@mui/icons-material/Dashboard';
 import cart_icon from '../Assets/cart_icon.png';
 import logo from '../Assets/logo.jpg';
 import { Link } from "react-router-dom";
 import { ShopContext } from "../../Context/ShopContext";
+import Favorite from "@mui/icons-material/Favorite";
 
 const Navbar=()=>
 {
@@ -29,7 +30,8 @@ const Navbar=()=>
                 <Link to ='/Login'><button>Login</button></Link>
                 <Link to='/cart'><img src={cart_icon} alt="" /></Link>
                 <div className="nav-cart-count">{getTotalCartItems()}</div>
-                <Link to='/Dashboard'><DashboardIcon id="dashboard"/></Link>
+                {/* <Link to='/Dashboard'><DashboardIcon id="dashboard"/></Link> */}
+                <Link to='/Wishlist'><Favorite id="dashboard"/></Link>
             </div>
         </div>
     )
