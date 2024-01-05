@@ -13,11 +13,11 @@ const Item=(props)=>
             <div className="item-prices">
                     <div className="item-price-new">
                             ${props.new_price}
-                    <Favorite id="favourite"/>
+                    <Link to='/Wishlist'><Favorite id="favourite"/></Link>
                     </div>
                     <div className="item-price-old">
                             ${props.old_price}
-                    <a href="/cart"> <AddShoppingCartIcon id="cart"/></a>  
+                    <Link to="/cart"> <AddShoppingCartIcon id="cart"/></Link>  
                     </div>
             </div>
         </div>
